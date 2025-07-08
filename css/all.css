@@ -324,6 +324,10 @@ a {
 	padding: 24px 0;
 }
 
+.py-8 {
+	padding: 32px 0;
+}
+
 .py-12 {
 	padding: 48px 0;
 }
@@ -342,4 +346,21 @@ a {
 
 .p-3 {
 	padding: 12px;
+}
+
+/* component */
+.breadcrumb-list + .breadcrumb-list::before {
+	content: '/';
+	padding: 0 12px;
+	color: var(--neutral-300);
+	font-weight: 700;
+}
+
+.breadcrumb-list {
+	display: flex;
+	font-weight: 500;
+}
+
+.breadcrumb-link {
+	color: var(--neutral-600);
 }
