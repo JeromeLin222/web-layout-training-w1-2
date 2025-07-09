@@ -66,7 +66,7 @@ table {
 	--neutral-700: #495057;
 	--neutral-800: #343A40;
 	--neutral-900: #212529;
-	--danger-300: #E9ECEF;
+	--danger-300: #D74F4F;
 }
 
 
@@ -204,6 +204,10 @@ a {
 	flex-wrap: wrap;
 }
 
+.gap-8 {
+	gap: 8px;
+}
+
 .h2 {
 	font-size: 32px;
 	font-weight: 700;
@@ -240,12 +244,25 @@ a {
 	line-height: 1.5;
 }
 
+.text-md {
+	font-weight: 400;
+	line-height: 1.5;
+}
+
 .text-primary-400 {
 	color: var(--primary-400 )
 }
 
+.text-neutral-500 {
+	color: var(--neutral-500);
+}
+
 .text-neutral-600 {
-	color: var(--neutral-400)
+	color: var(--neutral-600)
+}
+
+.text-neutral-900 {
+	color: var(--neutral-900)
 }
 
 .text-danger-300 {
@@ -292,12 +309,20 @@ a {
 	margin-bottom: 32px;
 }
 
+.mb-10 {
+	margin-bottom: 40px;
+}
+
 .mb-12 {
 	margin-bottom: 48px;
 }
 
 .mb-16 {
 	margin-bottom: 64px;
+}
+
+.mr-2 {
+	margin-right: 8px;
 }
 
 .mr-3 {
@@ -356,6 +381,14 @@ a {
 	padding: 0 24px;
 }
 
+.pl-2 {
+	padding-left: 8px;
+}
+
+.pr-2 {
+	padding-right: 8px;
+}
+
 .pr-3 {
 	padding-right: 12px;
 }
@@ -393,6 +426,12 @@ a {
 	background-color: var(--neutral-900);
 	color: var(--neutral-0);
 }
+
+.btn-light {
+	background-color: var(--neutral-0);
+	border: 1px solid var(--neutral-900);
+}
+
 
 .footer .text {
     padding-top: 32px;
