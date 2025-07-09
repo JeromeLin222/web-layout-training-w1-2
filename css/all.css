@@ -372,3 +372,11 @@ a {
 .breadcrumb-link {
 	color: var(--neutral-600);
 }
+
+.btn {
+	border-radius: 4px;
+	padding: 12px 24px;
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+}
