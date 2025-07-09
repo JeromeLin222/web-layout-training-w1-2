@@ -380,3 +380,8 @@ a {
 	border: none;
 	background-color: transparent;
 }
+
+.btn-dark {
+	background-color: var(--neutral-900);
+	color: var(--neutral-0);
+}
