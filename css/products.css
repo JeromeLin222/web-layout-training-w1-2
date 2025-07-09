@@ -1,0 +1,12 @@
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.product-col {
+    width: calc(100% / 12 * 6);
+    padding-right: 4px;
+    padding-left: 4px;
+}

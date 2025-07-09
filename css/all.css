@@ -244,8 +244,16 @@ a {
 	color: var(--primary-400 )
 }
 
+.text-neutral-500 {
+	color: var(--neutral-500);
+}
+
 .text-neutral-600 {
 	color: var(--neutral-400)
+}
+
+.text-neutral-900 {
+	color: var(--neutral-900)
 }
 
 .text-danger-300 {
@@ -298,6 +306,10 @@ a {
 
 .mb-16 {
 	margin-bottom: 64px;
+}
+
+.mr-2 {
+	margin-right: 8px;
 }
 
 .mr-3 {
@@ -354,6 +366,10 @@ a {
 
 .px-6 {
 	padding: 0 24px;
+}
+
+.pl-2 {
+	padding-left: 8px;
 }
 
 .pr-3 {
