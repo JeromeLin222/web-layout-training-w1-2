@@ -25,3 +25,20 @@
 .size-btn:hover {
     border: 1px solid var(--neutral-900);
 }
+
+.action-btn .btn {
+    width: 50%;
+}
+
+.product-detail {
+    border-bottom: 1px solid var(--neutral-300);
+}
+
+.product-detail p {
+    color: var(--neutral-600);
+}
+
+.product-detail-title {
+    font-weight: 500;
+    font-size: 16px;
+}
