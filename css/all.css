@@ -393,3 +393,9 @@ a {
 	background-color: var(--neutral-900);
 	color: var(--neutral-0);
 }
+
+.footer .text {
+    padding-top: 32px;
+    text-align: center;
+    border-top: 1px solid var(--neutral-300);
+}
