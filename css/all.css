@@ -260,6 +260,10 @@ a {
 	background-color: var(--neutral-100);
 }
 
+.mr-auto {
+	margin-right: auto;
+}
+
 .mb-1 {
 	margin-bottom: 4px;
 }
@@ -338,6 +342,10 @@ a {
 
 .py-12 {
 	padding: 48px 0;
+}
+
+.py-16 {
+	padding: 64px 0;
 }
 
 .px-3 {
