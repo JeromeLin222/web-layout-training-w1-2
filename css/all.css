@@ -80,7 +80,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.05em;
-	color: var(--Neutral-900)
+	color: var(--neutral-900)
 }
 
 
@@ -420,6 +420,7 @@ a {
 	cursor: pointer;
 	border: none;
 	background-color: transparent;
+	font: inherit;
 }
 
 .btn-dark {
