@@ -97,6 +97,11 @@ a {
 	font-weight: 500;
 }
 
+a:hover {
+	transition: 0.3s;
+	transform: scale(1.05);
+}
+
 /* 通用樣式 */
 .container {
 	margin: 0 auto; 
