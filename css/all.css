@@ -80,7 +80,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.05em;
-	color: var(--Neutral-900)
+	color: var(--neutral-900)
 }
 
 
@@ -95,6 +95,11 @@ a {
 	text-decoration: none;
 	display: block;
 	font-weight: 500;
+}
+
+a:hover {
+	transition: 0.3s;
+	transform: scale(1.05);
 }
 
 /* 通用樣式 */
@@ -420,6 +425,7 @@ a {
 	cursor: pointer;
 	border: none;
 	background-color: transparent;
+	font: inherit;
 }
 
 .btn-dark {

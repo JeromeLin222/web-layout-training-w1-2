@@ -15,3 +15,10 @@
     background-color: var(--primary-300);
 }
 
+.category li a:hover {
+    color: var(--primary-400)
+}
+
+.pagination-item .btn:hover {
+    background-color: var(--neutral-100);
+}
